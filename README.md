@@ -64,4 +64,16 @@ ShopSphere-Full-GitHub-Portfolio/
 
 The evidence is grouped by architecture concern rather than by arbitrary screenshot filename. This makes the repository easier for a recruiter or interviewer to review while retaining the complete implementation trail.
 
+## References & Acknowledgements
+
+### Technical References
+
+- AWS Documentation
+- AWS Well-Architected Framework
+
+### AI Assistance
+
+- ChatGPT by OpenAI — Used for architectural guidance, troubleshooting,
+  technical explanations, documentation, and project organization.
+
 > **Note:** Screenshots are implementation evidence captured during the ShopSphere build. Resource identifiers, timestamps, and AWS-console details are retained where they are visible in the source screenshots.
