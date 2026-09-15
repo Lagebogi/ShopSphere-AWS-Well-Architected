@@ -1,4 +1,4 @@
-# ShopSphere — Full AWS Well-Architected Project Evidence
+<img width="417" height="287" alt="image" src="https://github.com/user-attachments/assets/fa6789e2-7d24-4041-a537-02ca29bc2110" /># ShopSphere — Full AWS Well-Architected Project Evidence
 
 A complete GitHub-ready evidence archive for the **ShopSphere production-oriented AWS architecture**.
 
@@ -32,7 +32,7 @@ us-east-1a      us-east-1b
 | Pillar | Evidence in this project |
 |---|---|
 | Operational Excellence | SSM, CloudWatch, CloudTrail, AWS Config |
-| Security | IAM, layered Security Groups, WAF, private subnets, encryption, Secrets Manager |
+| Security | IAM, layered Security Groups, WAF, private subnets, CloudTrail, AWS Config |
 | Reliability | Multi-AZ EC2/ASG, ALB, Multi-AZ RDS, health checks and recovery testing |
 | Performance Efficiency | CloudFront, ALB, Auto Scaling, monitored CPU/host health |
 | Cost Optimization | Right-sized resources, managed services, storage/capacity considerations |
@@ -40,15 +40,20 @@ us-east-1a      us-east-1b
 
 ## Evidence archive
 
-The full screenshot documentation is in [`docs/PROJECT_EVIDENCE.md`](docs/PROJECT_EVIDENCE.md). It contains **175 unique project screenshots**, with each image followed by a short explanation. Exact duplicate files were consolidated so the repository remains clean.
+The project evidence is documented in [docs/PROJECT_EVIDENCE.md](docs/PROJECT_EVIDENCE.md).
+
+A detailed screenshot index is available in [docs/SCREENSHOT_INDEX.md](docs/SCREENSHOT_INDEX.md), providing organized navigation across the implementation evidence.
+
+The repository contains around **175 unique project screenshots**. Exact duplicate screenshots and non-project preview artifacts were consolidated where applicable so the repository remains clean.
 
 ## Repository structure
-
 ```text
-ShopSphere-Full-GitHub-Portfolio/
+ShopSphere-AWS-Well-Architected/
 ├── README.md
+├── .gitignore
 ├── docs/
-│   └── PROJECT_EVIDENCE.md
+│   ├── PROJECT_EVIDENCE.md
+│   └── SCREENSHOT_INDEX.md
 └── screenshots/
     ├── 01-Network-Foundation/
     ├── 02-Security-and-Identity/
